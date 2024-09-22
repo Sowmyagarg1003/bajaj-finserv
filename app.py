@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=['https://bajaj-finserv-frontend-rhie83wn9-sowmya-gargs-projects.vercel.app'])
 
 def process_file(file_b64):
     try:
